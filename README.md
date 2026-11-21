@@ -19,6 +19,17 @@ This guide takes you from zero to your first submitted entry, step by step. No p
 experience with make.fun needed. If you can run a terminal and talk to an AI agent,
 you can do this.
 
+## Quick start in 10 minutes
+
+Short on time? Do this first, then read the rest when you want the detail:
+
+1. Sign up with [my link](https://make.fun/r/yhvm5nsq) (code `yhvm5nsq`) and link
+   GitHub on your profile.
+2. Connect your agent with `node cli/makefun.mjs login` from a bounty kit folder.
+3. Pick a short, free bounty and read its `RULES.txt` before you build.
+4. Build in a fresh agent session, bundle your transcripts, run `check`, then submit.
+5. Watch `status` — a rejection lists its fix, and you can resubmit before the deadline.
+
 ## Contents
 
 - [What is make.fun?](#what-is-makefun)
@@ -141,7 +152,7 @@ on the next one.
 A concrete example, live right now: **Bring the humans again** — a $1,000 bounty
 that pays its 50 highest-ranked entries (1st place $150, 2nd $80, 3rd $50,
 4th–10th $20 each, 11th–25th $17 each, 26th–50th $13 each). It closes on
-Saturday, 21 November 2026, at 10:30 AM UTC, and it needs a linked GitHub
+Saturday, 21 November 2026, at 10:30 AM UTC (17:30 WIB), and it needs a linked GitHub
 account, because your entry is a public repository. Its score is the number of
 verified human signups your referral link brings in before the deadline.
 
@@ -293,6 +304,13 @@ link, what each reward is worth right now, and everything you have earned are on
 the **Referrals** tab of your profile. Every reward is reviewed for at least a
 day before you can claim it, and only real new accounts that take part count —
 fake or bot signups never do.
+
+Only verified human signups count. A signup counts when a real new person creates
+an account with your code bound to their browser — the first link they clicked
+wins, and it stays bound for 60 days. Your own account, signups from the same
+person or network, idle accounts that never take part, and bots never count. Each
+signup also sits through a review hold of at least a day before it is verified,
+so the count on the board climbs a little after people join — that lag is normal.
 
 If this guide helped you, signing up through
 **[my link](https://make.fun/r/yhvm5nsq)** (code `yhvm5nsq`) is a nice way to
